@@ -1,5 +1,9 @@
 /* Use flexbox to display all divs in a column in reverse order on the center of the page. */
-
+body {display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  border: 2px solid red;
+}
 div {
   height: 100px;
   width: 150px;
